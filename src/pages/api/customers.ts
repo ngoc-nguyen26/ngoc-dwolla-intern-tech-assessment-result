@@ -120,6 +120,8 @@ const handler = async (
     res.status(405).json({
       code: 'MethodNotAllowed',
       message: 'Method not allowed',
+      // Based on the instruction, it is not encourage or require a DELETE 
+      // feature as part of this assessment
     });
   }
 };
